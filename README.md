@@ -1,4 +1,4 @@
 # flutter_overlay_loading_dialog_example
 
 ## Demo
-<img src="https://github.com/JaveedIshaq/flutter-chat-feed-app/blob/master/screenshots/splash.jpeg?raw=true" width="400">
+<img src="https://github.com/JaveedIshaq/flutter_overlay_loading_dialog_example/blob/main/overlay-loader.gif?raw=true" width="400">
