@@ -33,14 +33,19 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() async {
+    // Call LoadingScreen().show() to SHOW  Loading Dialog
     LoadingScreen().show(
       context: context,
       text: 'Please wait a moment',
     );
+
+    // await for 2 seconds to Mock Loading Data
     await Future.delayed(const Duration(seconds: 2));
     setState(() {
       _counter++;
     });
+
+    // Call LoadingScreen().hide() to HIDE  Loading Dialog
     LoadingScreen().hide();
   }
 
